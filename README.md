@@ -1,0 +1,1 @@
+# guru-python-bug-bash-nampaw
