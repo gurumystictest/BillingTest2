@@ -74,6 +74,9 @@ def as_handle(handleish, mode="r", **kwargs):
     except TypeError:
         yield handleish
 
+def _test_for_billing_dummy(filename):
+    if not filename:
+      print('nothing')
 
 def _open_for_random_access(filename):
     """Open a file in binary mode, spot if it is BGZF format etc (PRIVATE).
